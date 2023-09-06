@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-
+/* nav bar starts here */
 .nav-container{
   display: flex;
   justify-content: space-around;
@@ -13,20 +13,15 @@
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
   
 }
-.logo-img{
-  width: 86.041px;
-  height: 40px;
-  
-}
 .logo-txt{
-font-size: 45px;
+font-size: 2.8rem;
 font-weight: 700;
 }
 .logo-txt span{
   color:rgb(255, 66, 165);
 }
 
-.left-navigation{
+.gamer-logo{
   display: flex;
   align-items: center;
   gap:20px;
@@ -34,7 +29,7 @@ font-weight: 700;
   
 }
 
-.right-navigation{
+.navigation{
   display: flex;
   gap: 32px;
   align-items: center;
@@ -58,66 +53,75 @@ font-weight: 700;
 }
 .nav-container p{
 color: #3C354F;
-font-size: 18px;
+font-size: 1.125rem;
 font-weight: 500;
 
 }
-.header-bottom{
+/* nav bar finish here */
+.header-container{
   display: flex;
-  justify-content: space-between;
-  padding-left: 200px;
-  padding-right: 200px;
+  justify-content: space-around;
+  
+  padding-left: 180px;
+  gap: 50px;
+ 
 
 }
-.left-side{
+.header-contents{
   padding-top: 148px;}
   
  
 .play-like{
 color: #0B0223;
-font-size: 48px;
+font-size: 3rem;
 font-weight: 600;
+width: 348px;
 
 }
 .primary-title{
-font-size: 95px; 
+font-size: 5.9rem; 
 font-weight: 800;
 background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
-.left-side ul>li{
+.header-contents ul>li{
 color: #534C64;
-font-size: 20px;
+font-size: 1.25rem;
 font-weight: 500;
 padding-top:17px ;
 }
-.left-side ul{
-  list-style: none;
-  
+.header-contents ul{
+list-style: none;
+text-align:left;
 }
+.header-img{
+  width: 90%;
+}
+
+
 .common-btn,.go-rouge{
   margin-top:40px ;
-  padding:21px 40px;
+  padding:20px 40px;
   border-radius: 48px;
   border: none;
-  font-size: 20px;
+  
   color: #FFF;
- font-size: 20px;
+ font-size:1.25rem ;
 font-weight: 600;
 }
 .common-btn{
   background-color:rgb(255, 66, 165);
 }
 .go-rouge{
-  background-color:rgb(78, 197, 247) ;
-  margin-left:24px;
+  background-color:rgb(78, 197, 247);
+  margin-left:15px ;
 }
+/* header section ends here */
 
-.head-img{
-  width: 100%;
-}
+/* main section starts here */
+
 .gamer-section{
   display: flex;
   justify-content: space-between;
@@ -144,12 +148,12 @@ font-weight: 600;
   
 }
 .gamer-title {
-  font-size: 48px;
+  font-size: 3rem;
   padding-bottom: 24px;
 }
 .common-font-style{
 color: #534C64;
-font-size: 18px;
+font-size: 1.125rem;
 font-weight: 400;
 line-height: 30px; 
 }
@@ -161,13 +165,13 @@ line-height: 30px;
 }
 .our-purpose{
 color: #534C64;
-font-size: 24px;
+font-size: 1.5rem;
 font-weight: 500;
 line-height: 45px;
 }
 .gamer-content q{
 color: #534C64;
-font-size: 32px;
+font-size: 2rem;
 font-weight: 700;
 line-height: 45px;
 margin-bottom: 96px;
@@ -181,6 +185,12 @@ margin-bottom: 96px;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 24px;
 }
+.content img:hover{
+border: 4px solid rgb(255, 89, 176);
+border-radius: 16px;
+
+filter: brightness(0.4);
+}
 .online-games-sec{
   padding-left: 200px;
   padding-right:200px ;
@@ -191,38 +201,34 @@ margin-bottom: 96px;
 content p{
 color: #534C64;
 
-font-size: 20px;
+font-size: 1.25rem;
 
 font-weight: 500;
 line-height: 30px;
 }
 .online-content h1{
 color: #0B0223;
-font-size: 48px;
+font-size: 3rem;
 padding-bottom: 16px;
 }
 .funny{
-font-size: 48px;
+font-size: 3rem;
 font-style: normal;
 font-weight: 700;
 }
-.collection-description{
-color: #534C64;
-font-size: 18px;
-font-weight: 400;
+.paragraph{
+
 padding-bottom: 48px;
 
 }
 .content p{
 color: #534C64;
-font-size: 16px;
+font-size: 1rem;
 font-weight: 500;
 padding-top: 24px;
 padding-bottom: 120px;
 
 }
-
-
 .play-instantly{
   
     display: flex;
@@ -233,11 +239,6 @@ padding-bottom: 120px;
     text-align: right;
     gap: 200px;
     margin-bottom:-220px ;
-    
-   
-    
-  
-  
 }
 .images{
   display: flex;
@@ -259,72 +260,59 @@ padding-bottom: 120px;
 .play-instantly h1{
 text-align: right;
 
-font-size: 48px;
+font-size: 3rem;
 
 font-weight: 700;
-margin-bottom:24px ;
+margin-bottom:12px ;
 
 }
 
-.description{
+.common-font-style-description{
   transform: translateY(-180px);
 }
 .instantly{
-  font-size: 48px;
+  font-size: 3rem;
 
 font-weight: 700;
 } 
 
 /* Games Genre Sections starts here */
-.games-genre{
-  background: 
-}
-
-.games-genre{
-  background:linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+ .games-genre{
   display: flex;
-  padding-top: 120px;
   flex-wrap: wrap;
-  
-  justify-content: center;
   padding-left: 200px;
   padding-right: 200px;
+  justify-content: center;
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+  padding-top:120px;
   padding-bottom: 120px;
+  gap:15px ;
   
-  
-  
-  
-}
-.genre{
+ }
+ .games-genre button{
   display: flex;
+  
+ 
+  align-items: center;
   border-radius: 50px;
   background: #FFF;
-  align-items: center;
-  margin-bottom: 28px;
-  gap:16px ;
-  padding:25px 20px 25px 10px;
-  
-  
+  border: none;
+  padding:10px 20px 10px 10px;
+  margin-bottom: 27px;
+  color: #0B0223;
+  font-size: 1.25rem;
+  font-weight: 600;
+ }
 
+ .genre:hover{
+
+  border: 1.5px solid #FF42A5;
+  color:#FF42A5 ;
 }
-.genre img{
-  width: 60px;
-}
-.genre p{
-color: #0B0223;
-font-size: 20px;
-;
-font-weight: 600;
+/* ----Games genre section ends here------ */
 
-}
-
-.genre:hover{
-
-border: 1.5px solid #FF42A5;
-
-}
-
-
+/* ----Footer section starts here------ */
+ 
 footer{
   display: flex;
   flex-direction: column;
@@ -341,20 +329,24 @@ footer{
 }
 .footer-title{
 color: #FFF;
-font-size: 45px;
+font-size: 2.8rem;
 font-weight: 700;
-
-
+}
+.g-letter{
+  background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
-.g-letter{
-  color:rgb(255, 66, 165);
+.txt-footer{
+  color: #FFF; 
 }
 
 .about-us{
 color: #FFF;
 text-align: center;
-font-size: 18px;
+font-size: 1.125rem;
 font-weight: 600;
 display: flex;
 list-style: none;
@@ -370,7 +362,7 @@ gap: 60px;
 }
 .policy{
 color: rgba(255, 255, 255, 0.60);
-font-size: 16px;
+font-size: 1rem;
 font-weight: 500;
 display: flex;
 list-style: none;
@@ -382,7 +374,7 @@ padding-top: 74px;
 }
 .copyright{
   color: rgba(255, 255, 255, 0.60);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   padding-bottom: 130px;
  
