@@ -190,6 +190,7 @@ border: 4px solid rgb(255, 89, 176);
 border-radius: 16px;
 
 filter: brightness(0.4);
+cursor: pointer;
 }
 .online-games-sec{
   padding-left: 200px;
@@ -308,6 +309,7 @@ font-weight: 700;
 
   border: 1.5px solid #FF42A5;
   color:#FF42A5 ;
+  cursor: pointer;
 }
 /* ----Games genre section ends here------ */
 
